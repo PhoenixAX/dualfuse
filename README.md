@@ -16,17 +16,11 @@
 - termcolor
 - tensorboardX
 
-### The Thirdparty File Data
+### The Thirdparty Folder Data
 - You can download the essential file from[here](https://github.com/dvlab-research/SphereFormer/tree/master/third_party/SparseTransformer).
 - Than follow the SpTr: PyTorch Spatially Sparse Transformer Library's README.md to set up the envionment.
 
 ## Data Preparation
-<p align="center">
-   <img src="images/pointpainting1.jpg" width="80%"> 
-</p>
-<p align="center">
-   <img src="images/pointpainting2.jpg" width="80%"> 
-</p>
 
 ### SemanticKITTI Dataset
 Please download the files from the [SemanticKITTI website](http://semantic-kitti.org/dataset.html) and additionally the [color data](http://www.cvlibs.net/download.php?file=data_odometry_color.zip) from the [Kitti Odometry website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). Extract everything into the same folder.
@@ -56,7 +50,14 @@ Please download the files from the [SemanticKITTI website](http://semantic-kitti
 	    └── ...
 ```
 ### Data preprocessing
+<p align="center">
+   <img src="images/pointpainting1.jpg" width="80%"> 
+</p>
+<p align="center">
+   <img src="images/pointpainting2.jpg" width="80%"> 
+</p>
 
+The method I used involves projecting the semantic segmentation results of RGB images onto the point cloud using the [PointPainting](https://github.com/AmrElsersy/PointPainting) approach. This process enhances the original point cloud vectors from `𝑥,𝑦,𝑧,𝑡`to `𝑥,𝑦,𝑧,𝑡,𝑠𝑒𝑚`, and the enhanced data is saved in the sem_velodyne folder. If any modifications are needed, I have annotated the relevant sections in `/dataloader/pc_dataset.py` with `##sem_` comments.
 
 ## Training
 You can run the training with
