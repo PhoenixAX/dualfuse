@@ -57,7 +57,7 @@ Please download the files from the [SemanticKITTI website](http://semantic-kitti
    <img src="images/pointpainting2.jpg" width="80%"> 
 </p>
 
-The method I used involves projecting the semantic segmentation results of RGB images onto the point cloud using the [PointPainting](https://github.com/AmrElsersy/PointPainting) approach. This process enhances the original point cloud vectors from `𝑥,𝑦,𝑧,𝑡`to `𝑥,𝑦,𝑧,𝑡,𝑠𝑒𝑚`, and the enhanced data is saved in the sem_velodyne folder. If any modifications are needed, I have annotated the relevant sections in `/dataloader/pc_dataset.py` with `##sem_` comments.
+- The method I used involves projecting the semantic segmentation results of RGB images onto the point cloud using the [PointPainting](https://github.com/AmrElsersy/PointPainting) approach. This process enhances the original point cloud vectors from `𝑥,𝑦,𝑧,𝑡`to `𝑥,𝑦,𝑧,𝑡,𝑠𝑒𝑚`, and the enhanced data is saved in the sem_velodyne folder. If any modifications are needed, I have annotated the relevant sections in `/dataloader/pc_dataset.py` with `##sem_` comments.
 
 ## Training
 You can run the training with
