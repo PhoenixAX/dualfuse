@@ -18,7 +18,7 @@
 
 ### The Thirdparty Folder Data
 - You can download the essential file from[here](https://github.com/dvlab-research/SphereFormer/tree/master/third_party/SparseTransformer).
-- Than follow the SpTr: PyTorch Spatially Sparse Transformer Library's README.md to set up the envionment.
+- Than follow the README.md file of SpTr: PyTorch Spatially Sparse Transformer Library to set up the envionment.
 
 ## Data Preparation
 
