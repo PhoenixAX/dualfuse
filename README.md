@@ -60,7 +60,7 @@ Please download the files from the [SemanticKITTI website](http://semantic-kitti
 - The method I used involves projecting the semantic segmentation results of RGB images onto the point cloud using the [PointPainting](https://github.com/AmrElsersy/PointPainting) approach. This process enhances the original point cloud vectors from `𝑥,𝑦,𝑧,𝑡`to `𝑥,𝑦,𝑧,𝑡,𝑠𝑒𝑚`, and the enhanced data is saved in the sem_velodyne folder. If any modifications are needed, I have annotated the relevant sections in `/dataloader/pc_dataset.py` with `##sem_` comments.
 
 ## Training
-You can run the training with
+
 ```shell script
 cd <dir path>
 python main.py --log_dir 2DPASS_semkitti --config config/2DPASS-semantickitti.yaml --gpu 0
@@ -68,7 +68,7 @@ python main.py --log_dir 2DPASS_semkitti --config config/2DPASS-semantickitti.ya
 The output will be written to `logs/SemanticKITTI/2DPASS_semkitti` by default. 
 
 ## Testing
-You can run the testing with
+
 ```shell script
 cd <dir path>
 python main.py --config config/2DPASS-semantickitti.yaml --gpu 0 --test --num_vote 12 --checkpoint <dir for the pytorch checkpoint>
