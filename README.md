@@ -21,6 +21,12 @@
 - Than follow the SpTr: PyTorch Spatially Sparse Transformer Library's README.md to set up the envionment.
 
 ## Data Preparation
+<p align="center">
+   <img src="images/pointpainting1.jpg" width="80%"> 
+</p>
+<p align="center">
+   <img src="images/pointpainting2.jpg" width="80%"> 
+</p>
 
 ### SemanticKITTI Dataset
 Please download the files from the [SemanticKITTI website](http://semantic-kitti.org/dataset.html) and additionally the [color data](http://www.cvlibs.net/download.php?file=data_odometry_color.zip) from the [Kitti Odometry website](http://www.cvlibs.net/datasets/kitti/eval_odometry.php). Extract everything into the same folder.
