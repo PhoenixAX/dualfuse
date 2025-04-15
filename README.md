@@ -74,3 +74,6 @@ cd <dir path>
 python main.py --config config/2DPASS-semantickitti.yaml --gpu 0 --test --num_vote 12 --checkpoint <dir for the pytorch checkpoint>
 ```
 The checkpoint path will be `logs/SemanticKITTI/2DPASS_semkitti` by default. 
+
+## Acknowledgements
+This code is built based on [2DPASS](https://github.com/yanx27/2DPASS/tree/main?tab=readme-ov-file),[PointPainting](https://github.com/AmrElsersy/PointPainting) and [SphereFormer](https://github.com/dvlab-research/SphereFormer).
