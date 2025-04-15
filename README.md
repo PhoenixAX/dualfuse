@@ -44,7 +44,12 @@ Please download the files from the [SemanticKITTI website](http://semantic-kitti
         |   |   ├── 000001.png
         |   |   └── ...
         |   calib.txt
+	.
+	.
+	.
         ├── 08/ # for validation
+        ├── 09/
+        ├── 10/
         ├── 11/ # 11-21 for testing
         └── 21/
 	    └── ...
