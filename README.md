@@ -1,11 +1,12 @@
 # dualfuse
 
 
-##Architecture
+## Architecture
 <p align="center">
    <img src="images/model.png" width="80%"> 
 </p>
-##Visualize
+
+## Visualize
 <p align="center">
    <img src="images/visualize1.png" width="80%">
    <img src="images/visualize2.png" width="80%"> 
