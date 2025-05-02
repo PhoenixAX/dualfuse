@@ -7,6 +7,9 @@
 </p>
 
 ## Visualize
+Labels:   ground truth<br>
+Baseline: 2DPASS                (Scale:4,Hidden layer:64)<br>
+ours:     My proposed model     (Scale:4,Hidden layer:64)<br>
 <p align="center">
    <img src="images/visualize1.png" width="80%">
    <img src="images/visualize2.png" width="80%"> 
