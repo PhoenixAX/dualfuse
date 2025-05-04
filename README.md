@@ -6,7 +6,7 @@
    <img src="images/model.png" width="80%"> 
 </p>
 
-## Visualize
+## Result Visualization
 - Labels:<br>ground truth
 - Baseline:<br>2DPASS<br>(Scale:4,Hidden layer:64)
 - ours:<br>My proposed model<br>(Scale:4,Hidden layer:64)
